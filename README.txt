@@ -9,6 +9,10 @@ What it does:
 * adds only_show_body_view for a Page content type so you can only show the contents of the page
 * patches the zope last resort error handler to display something much nicer for ugly errors
 
+Compatibility
+-------------
+
+Works with Plone 4.3.
 
 Error Reporting
 ---------------

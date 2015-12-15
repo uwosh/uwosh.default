@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.2
+---
+
+* removed use of @@uwosh_tools in portal_actions
+  [tkimnguyen]
+
 1.1
 ---
 

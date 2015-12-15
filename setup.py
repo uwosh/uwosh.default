@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.1'
+version = '1.2'
 
 setup(name='uwosh.default',
       version=version,
@@ -17,7 +17,7 @@ setup(name='uwosh.default',
       keywords='',
       author='Nathan Van Gheem',
       author_email='vangheem@gmail.com',
-      url='http://svn.plone.org/svn/plone/plone.example',
+      url='https://github.com/uwosh/uwosh.default',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['uwosh'],
