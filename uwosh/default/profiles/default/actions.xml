@@ -34,7 +34,7 @@
 	  	<object name="about_uw_oshkosh" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">About UW Oshkosh</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/about-uw-oshkosh'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/about-uw-oshkosh'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -46,7 +46,7 @@
 	   		<property name="title" i18n:translate="">Academics</property>
 	   		<property name="description" i18n:translate=""></property>
 	   		<property
-	      		name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/future-students/undergraduate/academics'</property>
+	      		name="url_expr">python:'http://www.uwosh.edu/home' + '/future-students/undergraduate/academics'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -79,7 +79,7 @@
 	  	<object name="administration" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Administration</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/administration'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/administration'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -90,7 +90,7 @@
 	  	<object name="resources" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Resources</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/resources'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/resources'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -101,7 +101,7 @@
 	  	<object name="calendars" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Calendars</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/calendars'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/calendars'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -123,7 +123,7 @@
 	  	<object name="community_and_visitors" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Community &amp; Visitors</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/community-and-visitors'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/community-and-visitors'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -157,7 +157,7 @@
 	  	<object name="titan_services" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Titan Services</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/titan-services-and-campus-resources#documentContent'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/titan-services-and-campus-resources#documentContent'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -168,7 +168,7 @@
 	  	<object name="contact_us" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Contact Us</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/contact-us'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/contact-us'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -193,7 +193,7 @@
 		<object name="future_students" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Future Students</property>
    			<property name="description" i18n:translate=""></property>
-   			<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/future-students'</property>
+   			<property name="url_expr">python:'http://www.uwosh.edu/home' + '/future-students'</property>
    			<property name="icon_expr"></property>
    			<property name="available_expr"></property>
    			<property name="permissions">
@@ -204,7 +204,7 @@
   		<object name="parents" meta_type="CMF Action" i18n:domain="plone">
    			<property name="title" i18n:translate="">Parents</property>
    			<property name="description" i18n:translate=""></property>
-   			<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/parents-and-family'</property>
+   			<property name="url_expr">python:'http://www.uwosh.edu/home' + '/parents-and-family'</property>
    			<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -226,7 +226,7 @@
 	  	<object name="faculty_and_staff" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Faculty and Staff</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/faculty-staff'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/faculty-staff'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -237,7 +237,7 @@
 	  	<object name="current_students" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Current Students</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/current-students'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/current-students'</property>
 	   		<property name="icon_expr"></property>
 	   		<property name="available_expr"></property>
 	   		<property name="permissions">
@@ -252,7 +252,7 @@
 	  	<object name="main" meta_type="CMF Action" i18n:domain="plone">
 	   		<property name="title" i18n:translate="">Titan Services</property>
 	   		<property name="description" i18n:translate=""></property>
-	   		<property name="url_expr">python:here.restrictedTraverse('@@uwosh_tools').uwosh_home_url() + '/titan-services-and-campus-resources'</property>
+	   		<property name="url_expr">python:'http://www.uwosh.edu/home' + '/titan-services-and-campus-resources'</property>
    			<property name="icon_expr"></property>
    			<property name="available_expr"></property>
    			<property name="permissions">
